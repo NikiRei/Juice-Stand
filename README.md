@@ -5,11 +5,14 @@ class FreshJuice {
 	enum FreshJuiceSize { SMALL, MEDIUM, LARGE }
 	FreshJuiceSize size; 
 }
+
 public class FreshJuiceTest {
 	public static void main (String args[]){
 	FreshJuice juice = new FreshJuice();
-		if juice.size = FreshJuiceSize.MEDIUM ; 
+	
+	if juice.size = FreshJuiceSize.MEDIUM ; 
 		System.out.printIn("Size: " + juice.size); 
+		
 	else if juice.size = FreshJuiceSize.LARGE ; 
 		System.out.printIn("Size: " + juice.size); 
 	else if juice.size = FreshJuiceSize.SMALL ; 
